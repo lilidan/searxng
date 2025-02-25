@@ -8,9 +8,9 @@
 
    server:
        base_url: http://example.org/location  # change this!
-       port: 8888
+       port: 8080
        bind_address: "127.0.0.1"
-       secret_key: "ultrasecretkey"           # change this!
+       secret_key: "yydsseek"           # change this!
        limiter: false
        public_instance: false
        image_proxy: false
