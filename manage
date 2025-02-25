@@ -128,7 +128,7 @@ webapp.run() {
     (
         sleep 3
     )&
-    SEARXNG_DEBUG=0 pyenv.cmd python -m searx.webapp
+    SEARXNG_DEBUG=1 pyenv.cmd python -m searx.webapp
 }
 
 docker.push() {
