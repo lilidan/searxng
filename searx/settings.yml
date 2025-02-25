@@ -110,7 +110,7 @@ server:
 redis:
   # URL to connect redis database. Is overwritten by ${SEARXNG_REDIS_URL}.
   # https://docs.searxng.org/admin/settings/settings_redis.html#settings-redis
-  url: 127.0.0.1:6379
+  url: redis://localhost:6379
 
 ui:
   # Custom static path - leave it blank if you didn't change
