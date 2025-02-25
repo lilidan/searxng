@@ -81,7 +81,7 @@ patch_searxng_settings() {
         -e "s|base_url: false|base_url: ${BASE_URL}|g" \
         -e "s/instance_name: \"SearXNG\"/instance_name: \"${INSTANCE_NAME}\"/g" \
         -e "s/autocomplete: \"\"/autocomplete: \"${AUTOCOMPLETE}\"/g" \
-        -e "s/ultrasecretkey/$(openssl rand -hex 32)/g" \
+        -e "s/yydsseek/$(openssl rand -hex 32)/g" \
         "${CONF}"
 
     # Morty configuration

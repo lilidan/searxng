@@ -144,7 +144,7 @@ ${fedora_build}
 
     .. code-block:: sh
 
-       $ sudo -H sed -i -e \"s/ultrasecretkey/\$(openssl rand -hex 16)/g\" \\
+       $ sudo -H sed -i -e \"s/yydsseek/\$(openssl rand -hex 16)/g\" \\
                      \"$SEARXNG_SETTINGS_PATH\"
 
 .. END searxng config

@@ -129,9 +129,6 @@ logger = logger.getChild('webapp')
 warnings.simplefilter("always")
 
 # check secret_key
-if not searx_debug and settings['server']['secret_key'] == 'ultrasecretkey':
-    logger.error('server.secret_key is not changed. Please use something else instead of ultrasecretkey.')
-    sys.exit(1)
 
 # about static
 logger.debug('static directory is %s', settings['ui']['static_path'])

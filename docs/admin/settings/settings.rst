@@ -58,7 +58,7 @@ and can relied on the default configuration :origin:`searx/settings.yml` using:
 
     use_default_settings: true
     server:
-        secret_key: "ultrasecretkey"   # change this!
+        secret_key: "yydsseek"   # change this!
         bind_address: "0.0.0.0"
 
 ``engines:``
@@ -72,7 +72,7 @@ and can relied on the default configuration :origin:`searx/settings.yml` using:
 
     use_default_settings: true
     server:
-      secret_key: "ultrasecretkey"   # change this!
+      secret_key: "yydsseek"   # change this!
     engines:
       - name: arch linux wiki
         tokens: ['$ecretValue']
@@ -92,7 +92,7 @@ and can relied on the default configuration :origin:`searx/settings.yml` using:
         remove:
           - google
     server:
-      secret_key: "ultrasecretkey"   # change this!
+      secret_key: "yydsseek"   # change this!
     engines:
       - name: arch linux wiki
         tokens: ['$ecretValue']
@@ -109,7 +109,7 @@ and can relied on the default configuration :origin:`searx/settings.yml` using:
           - google
           - duckduckgo
     server:
-      secret_key: "ultrasecretkey"   # change this!
+      secret_key: "yydsseek"   # change this!
     engines:
       - name: google
         tokens: ['$ecretValue']
