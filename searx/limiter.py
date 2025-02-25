@@ -147,6 +147,7 @@ def get_cfg() -> config.Config:
 
 def filter_request(request: SXNG_Request) -> werkzeug.Response | None:
     # pylint: disable=too-many-return-statements
+    return None
 
     cfg = get_cfg()
     real_ip = ip_address(get_real_ip(request))
