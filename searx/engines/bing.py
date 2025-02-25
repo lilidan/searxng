@@ -67,7 +67,7 @@ safesearch = True
 verification by a cookie is needed / thats not possible in SearXNG.
 """
 
-base_url = 'https://www.bing.com/search'
+base_url = 'https://cn.bing.com/search'
 """Bing (Web) search URL"""
 
 

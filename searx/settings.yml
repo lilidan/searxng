@@ -748,16 +748,6 @@ engines:
   #   #show_metadata: false
   #   disabled: true
 
-  - name: wikidata
-    engine: wikidata
-    shortcut: wd
-    timeout: 3.0
-    weight: 2
-    # add "list" to the array to get results in the results list
-    display_type: ["infobox"]
-    tests: *tests_infobox
-    categories: [general]
-
   - name: duckduckgo
     engine: duckduckgo
     shortcut: ddg
@@ -1694,10 +1684,6 @@ engines:
     engine: sepiasearch
     shortcut: sep
 
-  - name: soundcloud
-    engine: soundcloud
-    shortcut: sc
-
   - name: stackoverflow
     engine: stackexchange
     shortcut: st
@@ -1905,8 +1891,8 @@ engines:
     categories: general
     search_type: web
     shortcut: yd
-    disabled: true
-    inactive: true
+    disabled: false
+    inactive: false
 
   - name: yandex images
     engine: yandex

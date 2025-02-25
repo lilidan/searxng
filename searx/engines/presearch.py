@@ -162,7 +162,7 @@ def parse_search_query(json_results):
         result = {
             'url': item['link'],
             'title': item['title'],
-            'thumbnail': item['image'],
+            'thumbnail': item.get('image') or item.get('thumbnail'),
             'content': '',
             'metadata': item.get('source'),
         }
